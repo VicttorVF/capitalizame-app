@@ -4,12 +4,13 @@ import './App.css';
 
 import AppNav from './components/AppNav'
 //import Nav from './components/Nav'
+//import Login from './components/Login'
 
 class App extends Component {
   render(){
     return (
       <div className="App">
-        <AppNav />
+        <AppNav color="blue"/>
       </div>
     );
   }
