@@ -7,8 +7,9 @@
     "@material-ui/icons": "^4.2.1",
     "firebase": "^6.3.5",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.0.1"
+    "react-animated-slider": "latest",
+    "normalize.css": "latest",
+    "react-dom": "^16.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,6 +34,7 @@
     ]
   },
   "devDependencies": {
+    "react-scripts": "3.0.1",
     "nodemon": "^1.19.1"
   }
 }
