@@ -13,5 +13,14 @@ code {
 }
 
 .MuiBadge-colorPrimary {
-  background-color: #1976d2 !important;
+  background-color: lighten('#1976D2', 0.5) !important;
+}
+
+.makeStyles-content-180 {
+  padding: 0px 24px 24px 24px !important;
+}
+
+.card2 {
+  margin-right: 5.9%;
+  margin-left: 5.9%;
 }

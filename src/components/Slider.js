@@ -7,31 +7,31 @@ import "../styles.css";
 
 const content = [
 	{
-		title: 'Vulputate Mollis Ultricies Fermentum Parturient',
+		title: 'GLAS Animation Festival 2020',
 		description:
-		'Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis.',
+		'GLAS Animation Festival showcases a wide array of exciting animation from all over the world. Help us make our 5th edition take off!.',
 		button: 'Read More',
-		image: 'https://i.imgur.com/ZXBtVw7.jpg',
-		user: 'Luan Gjokaj',
-		userProfile: 'https://i.imgur.com/JSW6mEk.png'
+		image: '/img/img1.jpg',
+		user: 'GLAS Animation',
+		userProfile: '/img/prof1.jpeg'
 	},
 	{
-		title: 'Tortor Dapibus Commodo Aenean Quam',
+		title: 'FableWood Returns - The 5 New Magnetic Wooden Animals!',
 		description:
-		'Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui.',
+		'The new magnetic line up from FableWood. Mix, Match, Combine and Create your own curious creatures. Endless possibilities for all ages.',
 		button: 'Discover',
-		image: 'https://i.imgur.com/DCdBXcq.jpg',
-		user: 'Erich Behrens',
-		userProfile: 'https://i.imgur.com/0Clfnu7.png'
+		image: '/img/img2.jpg',
+		user: 'FableWood',
+		userProfile: '/img/prof2.png'
 	},
 	{
-		title: 'Phasellus volutpat metus',
+		title: 'The Wind and Wilting Blossom',
 		description:
-		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.',
+		'Battle yokai and navigate the war-torn lands of a randomly generated Heian period Japan in this FTL-style roguelike.',
 		button: 'Buy now',
-		image: 'https://i.imgur.com/DvmN8Hx.jpg',
-		user: 'Bruno Vizovskyy',
-		userProfile: 'https://i.imgur.com/4KeKvtH.png'
+		image: '/img/img3.png',
+		user: 'Picklefeet Games',
+		userProfile: '/img/prof3.png'
 	}
 ];
 

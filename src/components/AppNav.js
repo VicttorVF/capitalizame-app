@@ -15,7 +15,7 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
+import PublicIcon from '@material-ui/icons/Public';
 import MailIcon from '@material-ui/icons/Mail';
 
 import InputBase from '@material-ui/core/InputBase';
@@ -26,6 +26,10 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
 import MoreIcon from '@material-ui/icons/MoreVert';
+
+import CategoryIcon from '@material-ui/icons/Category';
+import DiscoverIcon from '@material-ui/icons/Explore';
+import MoneyIcon from '@material-ui/icons/AttachMoney';
 
 import BotonGoogle from './BotonGoogle';
 import Content from './Content';
@@ -366,18 +370,18 @@ export default function MiniDrawer() {
         </div>
         <Divider />
         <List>
-          {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
+          {['Language', 'Category'].map((text, index) => (
             <ListItem button key={text}>
-              <ListItemIcon>{index % 2 === 0 ? <InboxIcon/> : <MailIcon/>}</ListItemIcon>
+              <ListItemIcon>{index % 2 === 0 ? <PublicIcon/> : <CategoryIcon/>}</ListItemIcon>
               <ListItemText primary={text} />
             </ListItem>
           ))}
         </List>
         <Divider />
         <List>
-          {['All mail', 'Trash', 'Spam'].map((text, index) => (
+          {['Discover', 'Currency'].map((text, index) => (
             <ListItem button key={text}>
-              <ListItemIcon>{index % 2 === 0 ? <InboxIcon/> : <MailIcon/>}</ListItemIcon>
+              <ListItemIcon>{index % 2 === 0 ? <DiscoverIcon/> : <MoneyIcon/>}</ListItemIcon>
               <ListItemText primary={text} />
             </ListItem>
           ))}

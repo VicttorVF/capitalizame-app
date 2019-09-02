@@ -2,7 +2,9 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 
+import Box from '@material-ui/core/Box';
 import Slider from './Slider';
+import Card from './Card';
 
 const useStyles = makeStyles(theme => ({
     toolbar: {
@@ -26,8 +28,17 @@ export default function Content(props) {
     
     return (
         <main className={classes.content}>
-            
+            <Typography variant="h5">
+                Proyectos publicados recientemente
+            </Typography>
+            <Box component="span" display="block" p={1} m={0}/>
             <Slider content = {data} />
+            <div>
+                <Card titulo = "Muffin Time: The Random Card Game" img = "/img/img4.png" contenido = "Collect cards, trigger traps, and murder muffins in the asdfmovie-themed card game" autor = "Big Potato" autorImg = "/img/prof4.jpg"/>
+                <Card titulo = "Reigns: The Council" img = "/img/img5.png" contenido = "A regal asymmetric party game for 3-6 players with bluffs and betrayals, designed by Bruno Faidutti and Hervé Marly." autor = "Nerial" autorImg = "/img/prof5.png" className = "card2"/>
+                <Card titulo = "GENKI: Covert Dock for the Nintendo Switch" img = "/img/img6.png" contenido = "A tactical stealth dock hidden inside a portable GaN-charger. We're setting the dock free, so that any television is your playground." autor = "Human Things" autorImg = "/img/prof6.jpg"/>
+            </div>
+            <Box component="span" display="block" p={1} m={1}/>
             <Typography paragraph>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                 ut labore et dolore magna aliqua. Rhoncus dolor purus non enim praesent elementum
